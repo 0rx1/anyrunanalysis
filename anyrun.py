@@ -4,7 +4,7 @@ import time
 
 File = input("Enter File name: ")
 headers = {
-    'Authorization': 'API-Key ', # Enter your API key here
+    'Authorization': 'API-Key DEMOAPIKEY', # Enter your API key here
 }
 
 files = {
