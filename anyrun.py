@@ -2,7 +2,7 @@ import requests, json, time, sys
 
 sys.tracebacklimit = 0
 
-apiKey = 'APIKEY' # Enter your API key here
+apiKey = 'API-Key ' # Enter your API key here
 
 def checkUpload(taskID, count):
     getresults = requests.get(f'https://api.any.run/report/{taskID}/summary/html', headers=headers)
